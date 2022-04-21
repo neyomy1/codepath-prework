@@ -12,8 +12,8 @@ var volume=0.5
 var guessCounter=0;
 function startGame(){
     //initialize game variables
-    progress = 0;
-    gamePlaying = true;
+  progress = 0;
+  gamePlaying = true;
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
   playClueSequence();
@@ -21,7 +21,7 @@ function startGame(){
 function stopGame(){
   gamePlaying=false;
   document.getElementById("startBtn").classList.remove("hidden");
-  document.getElementByid("stopBtn").classlist.add("hidden");
+  document.getElementByid("stopBtn").classList.add("hidden");
 }
 // Sound Synthesis Functions
 const freqMap = {

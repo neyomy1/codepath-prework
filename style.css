@@ -23,12 +23,12 @@ h1{font-family:verdana,arial,sans-serif;
 button{
   padding:10px;
   border-radius:10px}
-#gamebuttonarea>button{
+#gamebuttonarea >button{
   width:200px;
   height:200px;
   margin:2px
 }
-.hidden{
+.hidden {
   display:none;
 }
 #button1{background:lightgreen;
